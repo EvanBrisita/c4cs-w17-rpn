@@ -1,3 +1,5 @@
+# Using python coveralls 1.1 because it was recommended an included
+# a tutorial on Travis CI integration
 language: python
 python:
   - "3.5"
