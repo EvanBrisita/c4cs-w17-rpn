@@ -3,12 +3,11 @@
 language: python
 python:
   - 3.5
-  - 2.7
 # command to run tests
 install:
   pip install coveralls
 script: 
   #make test
-  coverage run --source=c4cs-w17-rpn test_rpn.py
+  coverage run --source=c4cs-w17-rpn -m unittest
 after_success:
   coveralls
