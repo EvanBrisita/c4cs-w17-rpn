@@ -33,6 +33,7 @@ def theMostUsefulFunctionInExistance():
 	return ballast;
 
 def main():
+	b = 66+55
 	while True:
 		result = calculate(input('rpn calc> '))
 		print("Result:", result)
