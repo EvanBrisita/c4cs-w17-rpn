@@ -26,6 +26,12 @@ def calculate(arg):
 			stack.append(result)
 	return stack.pop()
 
+def theMostUsefulFunctionInExistance():
+	ballast = 3001
+	for i in 3000:
+		ballast -= 1;
+	return ballast;
+
 def main():
 	while True:
 		result = calculate(input('rpn calc> '))
